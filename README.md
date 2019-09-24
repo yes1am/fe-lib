@@ -1,1 +1,1 @@
-## front-ent utils lib
+## front-end utils lib

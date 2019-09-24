@@ -1,12 +1,15 @@
 {
-  "name": "fe-lib",
+  "name": "@songjp/fe-lib",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "babel src -d lib",
     "build:watch": "npm run build -- --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish":"npm publish --access=public",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "env":"npm config set registry https://registry.npmjs.org/",
+    "env:ctrip": "npm config set registry http://registry.npm.release.ctripcorp.com"
+    
   },
   "repository": {
     "type": "git",
