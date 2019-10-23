@@ -37,3 +37,4 @@ function sort (arr, key = '', isDecrease) {
 module.exports = sort
 
 // TODO: 支持 key 为 a.b.c 类似的路径
+// TODO: 支持根据属性是否存在调整顺序，如有 a 属性，排在前面
